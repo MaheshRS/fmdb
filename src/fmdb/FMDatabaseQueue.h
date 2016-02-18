@@ -69,7 +69,7 @@
 
 /** Path of database */
 
-@property (atomic, retain) NSString *path;
+@property (atomic, strong) NSString *path;
 
 /** Open flags */
 

@@ -44,7 +44,7 @@
 
 /** Database path */
 
-@property (atomic, retain) NSString *path;
+@property (atomic, strong) NSString *path;
 
 /** Delegate object */
 
